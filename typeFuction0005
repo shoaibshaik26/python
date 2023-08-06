@@ -1,0 +1,7 @@
+import os
+os.system("cls")
+print("a")
+
+CharValue = "as"
+#Type will give the datatype 
+print('\n this is test', CharValue, type(CharValue)) 
