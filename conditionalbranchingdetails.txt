@@ -1,0 +1,20 @@
+#brancin python
+
+
+# branching is used by using if statemet.
+
+# what are the control statemet in python 
+
+"""we have 
+	Sequencial control 
+	selective /(decion )
+	iterative control """
+	
+""" the branching principles in python is implemented using if keyword
+		if always excecute a condition to make the programe to excecute applying selective control statemet
+		the values that can return the bollen fuction can only be used in the if statemet
+we have 
+	IF and else
+	if and elseif
+	"""
+	
