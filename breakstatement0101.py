@@ -1,0 +1,49 @@
+"""what are loop control statements
+	-->if we have n number of iteration and we are running for n number of iteration.
+	
+	-->Loop control statementswill take resposibilty for the entire excution procress.
+
+		loop will take care the entire excution procress behaviour
+		
+		every loop will work from inicialization state to the termination state but there may be a state that a loop cab be terminated abnormally
+		when the loop is terminated all the variable in that scop will be lost 
+		
+		A variable can be used in side of the loop
+		
+What are three loop controlstatement?
+	we have 
+			-->break,
+				It is used inside the loop.
+				it is used to come outside the loop.
+				break is always terminate that abnormally terminate the loop.
+				generally the the break statement is always planned as a part of loop design to idetify the external condition that make look abnormal 
+				it is embedded in a branch control statement like if 
+			
+			syntax
+				while condtion1:
+					operation 01
+					operation 02
+					operation 03
+					
+					if(abnormal):
+						break
+						
+					operation02
+					operation03 
+		
+		
+		"""
+		
+import os
+os.system('cls')
+
+value1 = int(input(" please input a number to start"))
+value2 = int(input("please enter a number to terminate"))
+stopnumber = int(input("please enter a number to terminate abnormally"))
+while value1<value2:
+	print(value1)
+	value1+=1
+	
+	if value1 == stopnumber:
+		print("i have stoped at particular value ", stopnumber)
+		break # this for breaking and the procress will not continue furhter
