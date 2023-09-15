@@ -38,7 +38,7 @@ we can use range for both postive and negative value
 import os
 os.system("cls")
 value = input("please set a end range:")
-valueinicial = value
+valueinicial = ""
 for i in range(len(value),0,-1): # value entering the negative value
     valueinicial += value[i-1]
-print(valueinicial)
+print(valueinicial,end="")
