@@ -42,19 +42,7 @@ def triangle():
 
 
 triangle()
-sixbysix()
 
-def sixbysix()
-    name = int(input("how many set of lower triangle smiley you want"))
-
-
-
-    for i in range(0,name):
-        for z in range(0,name):
-            print(chr(1),end=" ")
-        print("\n")
-    return
-    
 # calling the function for the abtract of the usage 
 # the excusation start from the 44 line and the program immediately 
 #suspends all the next level of the activities  and jumps to the location where the call to the function

@@ -18,7 +18,7 @@ print("the sequence of number that are expected to be print %d to %d"%(NumberSta
 if (number == ""):
 	print("error do not push enter key without number")
 else:
-    number == int(number)    
+    number = int(number)    
 	while(NumberStart <= number): # this is initialization and termination
 		print( NumberStart, end=" ")
 		#time.sleep(1)# time package to wait for some time 

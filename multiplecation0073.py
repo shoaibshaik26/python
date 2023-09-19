@@ -14,5 +14,5 @@ os.system("cls")
 number = int(input("please input the number where you want to end : "))
 value = 1
 while(number <= 10 and value <= 10):
-    print("%d *%02d= %02d"%(number, value,(number * value)))
+    print("%d *%d= %d",number, value(number * value)
     value += 1

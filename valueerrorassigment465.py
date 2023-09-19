@@ -15,7 +15,7 @@ try:
     NumberStart = int(input("please input the number where you want to start : "))
 except ValueError:
         print("Invalid input. Please enter an integer.")
-
+print("the sequence of number that are expected to be print %d to %d"%(NumberStart,number))
 while(NumberStart <= number): # this is initialization and termination
 		print( NumberStart, end=" ")
 		#time.sleep(1)# time package to wait for some time 
