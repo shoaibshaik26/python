@@ -1,0 +1,8 @@
+"""Callby value 
+
+the formal arguments are actually pointing to the value and where the location of formal parameters and actual parameters are totally different and independent in their scopes hence any change in the formal parameters in the functions def will not affect the actual parameters 
+
+call by reference 
+
+the formal arguments are actually pointing to the physical location and where the location of formal parameters and actual parameters are totally different and independent in their scopes hence any change on the formal parameters in the functions def will affect the actual parameters
+"""
