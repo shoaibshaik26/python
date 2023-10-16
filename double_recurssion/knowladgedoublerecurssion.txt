@@ -1,0 +1,11 @@
+"""Double recurrsion
+
+as per the recurrsion theory double recurrsion is the extenstion of the primitive or single recurrsion
+
+in double recurrsion, the same function is called two times in it defination having it own based condition and recursive statement 
+
+when double recurrsion is implemeneted each recurrsion call has it own individual stack forward trackin and reverse traction with each recursive call individualy 
+"""
+#Implementing double recurrsion in generating fibnoci series 
+
+#it is set of numbers that plus with previos number 
