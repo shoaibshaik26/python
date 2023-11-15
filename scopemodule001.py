@@ -63,9 +63,10 @@ def functionthree():
 #time.sleep(3)
 
 print("we are calling the function from the below externally", end="\n")
-integrationmodule()
-print("this out of loop", end="\n\n")
-print(main.__code__.co__varnames)
+if __name__ == "__main__":
+    integrationmodule()
+    print("this out of loop", end="\n\n")
+    print(integrationmodule.__code__.co_varnames)# this will tell the variables used in the run time 
 time.sleep(3)
 
 #print("we are calling the function from the below we are going to the 40 line here returning from 45", end="\n")
